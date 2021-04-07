@@ -715,6 +715,21 @@ if (text.includes("placa"))
 			tujuh = fs.readFileSync('./assets/canto.mp3');
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
+				if (messagesC.includes("gigi")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/gigi.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}
+				if (messagesC.includes("tiraimundo")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/tioraimundo.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}
+				if (messagesC.includes("tioraimundo")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/tioraimundo.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}
 				if (messagesC.includes("vozgalinha")){
 			client.updatePresence(from, Presence.composing)
 			tujuh = fs.readFileSync('./assets/vozgalinha.mp3');
