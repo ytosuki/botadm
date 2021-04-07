@@ -715,6 +715,17 @@ if (text.includes("placa"))
 			tujuh = fs.readFileSync('./assets/canto.mp3');
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
+				if (messagesC.includes("vozgalinha")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/vozgalinha.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}
+	
+				if (messagesC.includes("autoban")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/autoban.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}
 	
 					if (messagesC.includes("grita")){
 			client.updatePresence(from, Presence.composing)
