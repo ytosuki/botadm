@@ -6,14 +6,14 @@ const {
     GroupSettingChange
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
-const { help } = require('./src/help')
-const {help1} = require('./src/help1')
+const { helc} = require('./src/help')
+const {hel} = require('./src/help1')
 const { modapk } = require('./src/modapk')
 const { pack } = require('./src/pack')
 const { outros } = require('./src/outros')
-const { vipmenu } = require('./src/vipmenu')
+const { vipmen } = require('./src/vipmenu')
 const { destrava } = require('./src/destrava')
-const { menu2 } = require('./src/menu2')
+const { men } = require('./src/menu2')
 const { destrava2 } = require('./src/destrava')
 const { gbin } = require('./src/gbin')
 const { gpessoa } = require('./src/gpessoa')
@@ -52,14 +52,14 @@ const { limit } = require('./database/menu/limit*/
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const BotName = 'Causs bot'; 
+const BotName = 'Amaral Ademiro'; 
 const instagram = 'http://www.instagram.com/'; 
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Causs\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=554792091566:+55 47992091566\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=556192939563:+55 556192939563\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 prefix = '.','!','#'
 blocked = []
@@ -300,11 +300,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["554792091566@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"554792091566@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["554792091566@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["554792091566@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["554792091566@s.whatsapp.net","558296156440@s.whatsapp.net"] 
+			const ownerNumber = ["556192939563@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"556192939563@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["556192939563@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["556192939563@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["556192939563@s.whatsapp.net","558296156440@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -677,11 +677,27 @@ if (text.includes("placa"))
 			reply("bora juntos?")
 	}
 	
-		if (messagesC.includes("cadebot")){
+		if (messagesC.includes("bodia")){
 			client.updatePresence(from, Presence.composing)
-			reply("olha eu aqui carai")
+			reply("bodia :D")
 	}
-	
+		if (messagesC.includes("caalma")){
+			client.updatePresence(from, Presence.composing)
+			reply("Galera, evita mandar várias de uma vez só, assim o bot cai")
+	}
+
+			if (messagesC.includes("Amaral")){
+			client.updatePresence(from, Presence.composing)
+			reply("o que tem eu?")
+	}
+		if (messagesC.includes("oqsou")){
+			client.updatePresence(from, Presence.composing)
+			reply("Oi Maria, você é incrivel, digite isso sempre que pensar em desistir.")
+	}
+		if (messagesC.includes("obaiano")){
+			client.updatePresence(from, Presence.composing)
+			reply("zZzZzzz")
+	}
 		if (messagesC.includes("bot")){
 			client.updatePresence(from, Presence.composing)
 			reply("oi")
