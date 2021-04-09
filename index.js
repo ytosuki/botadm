@@ -690,9 +690,21 @@ if (text.includes("placa"))
 			client.updatePresence(from, Presence.composing)
 			reply("o que tem eu?")
 	}
-		if (messagesC.includes("oqsou")){
+		if (messagesC.includes("oCassio")){
 			client.updatePresence(from, Presence.composing)
-			reply("Oi Maria, você é incrivel, digite isso sempre que pensar em desistir.")
+			reply("10 de MMR com Habilidades de top 1 do mundo (pelo menos é assim na cabeça dele).")
+	}
+		if (messagesC.includes("oRodrigo")){
+			client.updatePresence(from, Presence.composing)
+			reply("Já perdeu 93821093821098 vezes pro x1 contra o Cássio, mas todas pq ele deixou. Confia!")
+	}
+		if (messagesC.includes("oDoug")){
+			client.updatePresence(from, Presence.composing)
+			reply("Falar mal do meu suporte = KICK.")
+	}
+		if (messagesC.includes("oLuan")){
+			client.updatePresence(from, Presence.composing)
+			reply("Pausa aí q meu i7 pica das galáxias travou de novo.")
 	}
 		if (messagesC.includes("obaiano")){
 			client.updatePresence(from, Presence.composing)
@@ -752,9 +764,43 @@ if (text.includes("placa"))
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
 	
+				if (messagesC.includes("vozdegalinha")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/vozgalinha.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}
+	
+				if (messagesC.includes("calaputa")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/calabocaputa.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}
+	
+				if (messagesC.includes("naziberto")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/nazi.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}
+	
+				if (messagesC.includes("meireles")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/meireles.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}
+				if (messagesC.includes("resgostosa")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/resistir.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}
 				if (messagesC.includes("autoban")){
 			client.updatePresence(from, Presence.composing)
 			tujuh = fs.readFileSync('./assets/autoban.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}
+	
+				if (messagesC.includes("bomdiaa")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/bomdiaa.mp3');
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
 	
