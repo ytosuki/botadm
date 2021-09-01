@@ -7,18 +7,18 @@ const {
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
 const { helc} = require('./src/help')
-const {hel} = require('./src/help1')
+const {hel } = require('./src/help1')
 const { modapk } = require('./src/modapk')
-const { pack} = require('./src/pack')
+const { pack } = require('./src/pack')
 const { outros } = require('./src/outros')
-const { vipmen } = require('./src/vipmenu')
-const { destrava } = require('./src/destrava')
+const { vipmena } = require('./src/vipmenu')
+const { destravaa } = require('./src/destrava')
 const { men } = require('./src/menu2')
-const { destrava2 } = require('./src/destrava')
-const { gbin } = require('./src/gbin')
-const { gpessoa } = require('./src/gpessoa')
-const { chentai } = require('./src/chentai')
-const { gcpf } = require('./src/gcpf')
+const { destrava2a } = require('./src/destrava')
+const { gbina } = require('./src/gbin')
+const { gpessoaa } = require('./src/gpessoa')
+const { chentaia } = require('./src/chentai')
+const { gcpfa } = require('./src/gcpf')
 const { addsay } = require('./src/addsay')
 const { listsay } = require('./src/listsay')
 const { addfoto } = require('./src/addfoto')
@@ -53,12 +53,12 @@ const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
 const BotName = 'Amaral Ademiro'; 
-const instagram = 'http://www.instagram.com/'; 
+const instagram = 'http://www.instagram.com/xxluan_x'; 
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:Causs\n' // Nama kamu
-            + 'ORG:Lexa;\n' // Nama bot
+            + 'FN:Amaral\n' // Nama kamu
+            + 'ORG:Amaral;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=556192939563:+55 556192939563\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 prefix = '.','!','#'
@@ -283,17 +283,17 @@ async function starts() {
 					levelnoton: '❬ X ❭ *leveling não ativado*',
 					levelnol: '*error* 0 °-°',
 					error: {
-				stick: '*Bem, falhe, tente novamente ^_^*',
+				stick: '*Bem, falhei, tente novamente ^_^*',
 				Iv: '𝗠𝗮𝗮𝗳 𝗹𝗶𝗻𝗸 𝘁𝗶𝗱𝗮𝗸 𝘃𝗮𝗹𝗶𝗱☹️'
 				},
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
 					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD CAUSS BOT*',
+					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA AMARAL E OS RESPONSÁVEIS PELO BOT*',
 					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
-					ownerG: '[❗] Causs? Este é um recurso especial para o Causs ❌',
-					ownerB: '[❗] Causs? Este é um recurso especial para o Causs ❌',
-					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de CAUSS. Registre-se para fazer amizade com o bot Causs por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar Causs|17\n\n──「 CAUSS BOT 」──`,
+					ownerG: '[❗] What? Este é um recurso especial para o Amaral e os responsáveis pelo bot ❌',
+					ownerB: '[❗] What? Este é um recurso especial para o Amaral e os responsáveis pelo bot ❌',
+					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmão. Você não está registrado como responsável pelo bot. Solicite o acesso ao bot por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar Fulano|21\n\n──「 AMARAL BOT 」──`,
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 				}
@@ -690,19 +690,19 @@ if (text.includes("placa"))
 			client.updatePresence(from, Presence.composing)
 			reply("o que tem eu?")
 	}
-		if (messagesC.includes("oCassio")){
+		if (messagesC.includes("ocassio")){
 			client.updatePresence(from, Presence.composing)
 			reply("10 de MMR com Habilidades de top 1 do mundo (pelo menos é assim na cabeça dele).")
 	}
-		if (messagesC.includes("oRodrigo")){
+		if (messagesC.includes("orodrigo")){
 			client.updatePresence(from, Presence.composing)
 			reply("Já perdeu 93821093821098 vezes pro x1 contra o Cássio, mas todas pq ele deixou. Confia!")
 	}
-		if (messagesC.includes("oDoug")){
+		if (messagesC.includes("odoug")){
 			client.updatePresence(from, Presence.composing)
 			reply("Falar mal do meu suporte = KICK.")
 	}
-		if (messagesC.includes("oLuan")){
+		if (messagesC.includes("oluan")){
 			client.updatePresence(from, Presence.composing)
 			reply("Pausa aí q meu i7 pica das galáxias travou de novo.")
 	}
@@ -721,13 +721,13 @@ if (text.includes("placa"))
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
 	
-				if (messagesC.includes("causs")){
+				if (messagesC.includes("causxs")){
 			client.updatePresence(from, Presence.composing)
 			tujuh = fs.readFileSync('./assets/caussf.mp3');
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
 	
-			if (messagesC.includes("Dbz")){
+			if (messagesC.includes("dbz")){
 			client.updatePresence(from, Presence.composing)
 			tujuh = fs.readFileSync('./assets/Dbz.mp3');
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
@@ -771,6 +771,11 @@ if (text.includes("placa"))
 	}
 	
 				if (messagesC.includes("calaputa")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/calabocaputa.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	}
+				if (messagesC.includes("calabocaputa")){
 			client.updatePresence(from, Presence.composing)
 			tujuh = fs.readFileSync('./assets/calabocaputa.mp3');
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
