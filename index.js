@@ -6,6 +6,7 @@ const {
     GroupSettingChange
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
+<<<<<<< HEAD
 const { helc} = require('./src/help')
 const {hel } = require('./src/help1')
 const { modapk } = require('./src/modapk')
@@ -19,6 +20,14 @@ const { gbina } = require('./src/gbin')
 const { gpessoaa } = require('./src/gpessoa')
 const { chentaia } = require('./src/chentai')
 const { gcpfa } = require('./src/gcpf')
+=======
+const { help } = require('./src/help')
+const {help1} = require('./src/help1')
+const { modapk } = require('./src/modapk')
+const { outros } = require('./src/outros')
+const { vipmenu } = require('./src/vipmenu')
+const { menu2 } = require('./src/menu2')
+>>>>>>> 276713bae28438813efb44197984d69756cc4f13
 const { addsay } = require('./src/addsay')
 const { listsay } = require('./src/listsay')
 const { addfoto } = require('./src/addfoto')
@@ -33,13 +42,11 @@ const moment = require('moment-timezone')
 const { exec } = require('child_process')
 const kagApi = require('@kagchi/kag-api')
 const fetch = require('node-fetch')
-const tiktod = require('tiktok-scraper')
 const { cekvip } = require('./src/cekvip')
 const { TobzApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
 const { VthearApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
 const { daftarvip } = require('./src/daftarvip')
 const { iklan } = require('./src/iklan')
-const { daftatvip } = require('./src/daftarvip')
 const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
 const imgbb = require('imgbb-uploader')
@@ -52,19 +59,28 @@ const { limit } = require('./database/menu/limit*/
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
+<<<<<<< HEAD
 const BotName = 'Amaral Ademiro'; 
+=======
+const BotName = 'Bot do Amaral'; 
+>>>>>>> 276713bae28438813efb44197984d69756cc4f13
 const instagram = 'http://www.instagram.com/xxluan_x'; 
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Amaral\n' // Nama kamu
+<<<<<<< HEAD
             + 'ORG:Amaral;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=556192939563:+55 556192939563\n' //Nomor whatsapp kamu
+=======
+            + 'ORG:LeFigurinhas / SYF;\n' // Nama bot
+            + 'TEL;type=CELL;type=VOICE;waid=556192939563:+55 6192939563\n' //Nomor whatsapp kamu
+>>>>>>> 276713bae28438813efb44197984d69756cc4f13
             + 'END:VCARD'
 prefix = '.','!','#'
 blocked = []
 limitawal = '999999999'
-cr = '*Causs*'
+cr = '*Amaral*'
 
 /*********** LOAD FILE ***********/
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
@@ -289,11 +305,19 @@ async function starts() {
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
 					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
+<<<<<<< HEAD
 					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA AMARAL E OS RESPONSÁVEIS PELO BOT*',
 					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
 					ownerG: '[❗] What? Este é um recurso especial para o Amaral e os responsáveis pelo bot ❌',
 					ownerB: '[❗] What? Este é um recurso especial para o Amaral e os responsáveis pelo bot ❌',
 					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmão. Você não está registrado como responsável pelo bot. Solicite o acesso ao bot por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar Fulano|21\n\n──「 AMARAL BOT 」──`,
+=======
+					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD DO BOT*',
+					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
+					ownerG: '[❗] O que está fazendo?? Este é um recurso especial para o Amaral ❌',
+					ownerB: '[❗] O que está fazendo? Este é um recurso especial para o Amaral ❌',
+					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de CAUSS. Registre-se para fazer amizade com o bot Causs por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar Causs|17\n\n──「 CAUSS BOT 」──`,
+>>>>>>> 276713bae28438813efb44197984d69756cc4f13
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 				}
@@ -304,7 +328,7 @@ async function starts() {
 			const mod = [ownerNumber,"556192939563@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["556192939563@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["556192939563@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["556192939563@s.whatsapp.net","558296156440@s.whatsapp.net"] 
+			const premium = ["556192939563@s.whatsapp.net","556181891769@s.whatsapp.net","556194224357@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -655,9 +679,10 @@ if (text.includes("placa"))
 			client.updatePresence(from, Presence.composing)
 			reply("5 segundo KKKKKKKK tchau otário 😔🤙")
 		}, 0)
-	}
-	
-	if (messagesC.includes("fdp")){
+			}
+			
+if (messagesC.includes("fdp"))
+{
 			client.updatePresence(from, Presence.composing)
 			reply("teu pai")
 	}
@@ -830,6 +855,7 @@ if (text.includes("placa"))
                 hasil = await getBuffer(randKey.result)
                 sendImage(hasil, mek, '*GELAP BOS :V*')
 	}
+	}
 
 			colors = ['red','white','black','blue','yellow','green']
 			const isMedia = (type === 'imageMessage' || type === 'videoMessage')
@@ -949,27 +975,27 @@ if (text.includes("placa"))
                     if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, modapk(prefix), text, { quoted: mek })
                     break
-                   case 'gbin':
+                   case 'gbina':
                     if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, gbin(prefix), text, { quoted: mek })
                     break
-                   case 'gpessoa':
+                   case 'gpessoaa':
                     if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, gpessoa(prefix), text, { quoted: mek })
                     break
-                   case 'destrava':
+                   case 'destravaa':
                     if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, destrava(prefix), text, { quoted: mek })
                     break
-                   case 'pack':
+                   case 'packa':
                     if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, pack(prefix), text, { quoted: mek })
                     break
-                   case 'chentai':
+                   case 'chentaia':
                     if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, chentai(prefix), text, { quoted: mek })
                     break
-                   case 'gcpf':
+                   case 'gcpfa':
                     if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, gcpf(prefix), text, { quoted: mek })
                     break
@@ -1763,7 +1789,7 @@ if (text.includes("placa"))
                          text: teks4,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('556192247994@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('5561929395634@s.whatsapp.net', options, text, {quoted: mek})
                     reply('1 trava enviada')
                     break
            case 'playmp3':
@@ -2187,7 +2213,7 @@ break
 		        case 'gay':		
 	            	if (args.length < 1) return reply('marque seus amigos!')
 					rate = body.slice(1)
-					const ti =['4','9','17','28','34','48','59','62','74','83','97','100','29','94','75','82','41','39']
+					const ti =['4','9','17','28','34','48','59','62','74','83','97','100','29','94','75','82','41','39','8000']
 					const kl = ti[Math.floor(Math.random() * ti.length)]
 					client.sendMessage(from, 'Como você é gay: *'+rate+'*\n\nSua porcentagem gay : '+ kl+'%', text, { quoted: mek })
 					break
@@ -2537,7 +2563,7 @@ break
                    break
 					case 'totaluser':
 					if (!isOwner) return reply(mess.only.ownerB)    
-					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOS CAUSS BOT 👑* 」\n\`\`\``
+					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOS BOT DO AMARAL 👑* 」\n\`\`\``
 					no = 0
 					for (let hehehe of user) {
 						no += 1
@@ -3594,7 +3620,7 @@ break
 				case 'canal':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://imgur.com/gallery/xuTCBPO`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '️*canal do Causs:*\n\n https://youtube.com/channel/UCpB3qh2Sp3K23s9a2Q-Gf-g'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '️*canal do Causs (Criador do Bot):*\n\n https://youtube.com/channel/UCpB3qh2Sp3K23s9a2Q-Gf-g'})
 					break
 				case 'nsfwloli1':
 					memein = await kagApi.memeindo()
